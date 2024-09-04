@@ -16,6 +16,7 @@ body {
     text-align: center;
 }
 
+
 .card {
     background-color: red;
     padding: 1rem;
@@ -37,4 +38,16 @@ body {
     background-color: yellow;
     display: flex;
     justify-content:space-evenly;
+
+.section-1{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img{
+    height: 250px;
+    width: 200px;
+    border-radius:2rem;
+
 }
