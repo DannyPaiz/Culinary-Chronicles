@@ -38,6 +38,7 @@ body {
     background-color: yellow;
     display: flex;
     justify-content:space-evenly;
+}
 
 .section-1{
     display:flex;
@@ -50,4 +51,31 @@ img{
     width: 200px;
     border-radius:2rem;
 
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: brown;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: pink;
+    padding:.25rem;
+}
+
+.left-side {
+    justify-content: flex-start;
+    display: flex;
+    list-style-type: none;
+}
+
+
+.nav-item {
+    padding: 1rem 2rem;
+    background-color: yellow;
+    border: red 10px solid;
 }
